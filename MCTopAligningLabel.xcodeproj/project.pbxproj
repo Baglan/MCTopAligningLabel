@@ -19,6 +19,8 @@
 		8654C9AA16678CCB007B77E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8654C9A916678CCB007B77E9 /* ViewController.m */; };
 		8654C9AD16678CCB007B77E9 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8654C9AB16678CCB007B77E9 /* ViewController_iPhone.xib */; };
 		8654C9B016678CCB007B77E9 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8654C9AE16678CCB007B77E9 /* ViewController_iPad.xib */; };
+		8654C9BD16678D68007B77E9 /* MCTopAligningLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8654C9BC16678D68007B77E9 /* MCTopAligningLabel.m */; };
+		8654C9BF16678D93007B77E9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8654C9BE16678D93007B77E9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		8654C9A916678CCB007B77E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8654C9AC16678CCB007B77E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		8654C9AF16678CCB007B77E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		8654C9BB16678D68007B77E9 /* MCTopAligningLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCTopAligningLabel.h; path = Classes/MCTopAligningLabel.h; sourceTree = "<group>"; };
+		8654C9BC16678D68007B77E9 /* MCTopAligningLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCTopAligningLabel.m; path = Classes/MCTopAligningLabel.m; sourceTree = "<group>"; };
+		8654C9BE16678D93007B77E9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,8 @@
 		8654C98116678CCB007B77E9 = {
 			isa = PBXGroup;
 			children = (
+				8654C9BE16678D93007B77E9 /* README.md */,
+				8654C9BA16678D38007B77E9 /* Classes */,
 				8654C99616678CCB007B77E9 /* MCTopAligningLabel */,
 				8654C98F16678CCB007B77E9 /* Frameworks */,
 				8654C98D16678CCB007B77E9 /* Products */,
@@ -108,6 +115,15 @@
 				8654C9A616678CCB007B77E9 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8654C9BA16678D38007B77E9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8654C9BB16678D68007B77E9 /* MCTopAligningLabel.h */,
+				8654C9BC16678D68007B77E9 /* MCTopAligningLabel.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +183,7 @@
 				8654C9A716678CCB007B77E9 /* Default-568h@2x.png in Resources */,
 				8654C9AD16678CCB007B77E9 /* ViewController_iPhone.xib in Resources */,
 				8654C9B016678CCB007B77E9 /* ViewController_iPad.xib in Resources */,
+				8654C9BF16678D93007B77E9 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +197,7 @@
 				8654C99D16678CCB007B77E9 /* main.m in Sources */,
 				8654C9A116678CCB007B77E9 /* AppDelegate.m in Sources */,
 				8654C9AA16678CCB007B77E9 /* ViewController.m in Sources */,
+				8654C9BD16678D68007B77E9 /* MCTopAligningLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
