@@ -12,7 +12,13 @@
 
 - (void)setText:(NSString *)text
 {
-    CGSize size = [text sizeWithFont:self.font constrainedToSize:CGSizeMake(self.bounds.size.width, CGFLOAT_MAX)];
+    [super setText:text];
+    [self setNeedsLayout];
+}
+
+- (void)layoutSubviews
+{
+    CGSize size = [self.text sizeWithFont:self.font constrainedToSize:CGSizeMake(self.bounds.size.width, CGFLOAT_MAX)];
     CGAffineTransform transform = self.transform;
     self.transform = CGAffineTransformIdentity;
     CGRect frame = self.frame;
@@ -20,7 +26,7 @@
     self.frame = frame;
     self.transform = transform;
     
-    [super setText:text];
+    [super layoutSubviews];
 }
 
 @end
